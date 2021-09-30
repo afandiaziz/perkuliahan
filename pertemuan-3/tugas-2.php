@@ -1,10 +1,3 @@
-<?php
-if (isset($_GET['r'])) {
-    $r = $_GET['r'];
-} else {
-    $r = 15;
-}
-?>
 <!doctype html>
 <html lang="en">
 
@@ -27,6 +20,13 @@ if (isset($_GET['r'])) {
                         </div>
                     </div>
                     <div class="card-body">
+                        <?php
+                        if (isset($_GET['r'])) {
+                            $r = $_GET['r'];
+                        } else {
+                            $r = 15;
+                        }
+                        ?>
                         <form action="" method="get">
                             <label for="#jarijari" class="fw-bold mb-2">Jari-Jari Bola</label>
                             <input type="text" id="jarijari" name="r" value="<?= $r ?>" autofocus autocomplete="off" required class="form-control">

@@ -14,23 +14,12 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <a href="../index.php" class="btn btn-outline-dark mb-2">Kembali</a>
-                        <div class="card-title fw-bold text-center mb-0">Pemrograman Web 2 : Tugas Pertemuan 3</div>
+                        <div class="card-title fw-bold text-center mb-0">Pemrograman Web 2</div>
                     </div>
                     <div class="card-body">
-                        <a href="doc.html">Document</a>
                         <ol>
                             <li>
-                                <a href="tugas-1.php">Membuat Profile Biodata</a>
-                            </li>
-                            <li>
-                                <a href="tugas-2.php">Hitunglah Volume Bola</a>
-                            </li>
-                            <li>
-                                <a href="tugas-3.php">Hitunglah Luas Lingkaran</a>
-                            </li>
-                            <li>
-                                <a href="tugas-4.php">Hitunglah Volume Balok</a>
+                                <a href="pertemuan-3">Tugas Pertemuan 3 (30/09/2021)</a>
                             </li>
                         </ol>
                     </div>

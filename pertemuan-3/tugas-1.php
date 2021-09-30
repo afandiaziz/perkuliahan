@@ -1,4 +1,5 @@
 <?php
+$img = 'https://yt3.ggpht.com/ytc/AKedOLTVR9gpaxLQMbtqzLougN3REyQMMrpP0X-ysm432A=s88-c-k-c0x00ffffff-no-rj';
 $name = 'Muhammad Afandi Aziz';
 $nim = '1907411005';
 ?>
@@ -25,7 +26,7 @@ $nim = '1907411005';
                     </div>
                     <div class="card-body">
                         <div class="d-flex">
-                            <img class="rounded-circle" width="80" src="https://yt3.ggpht.com/ytc/AKedOLTVR9gpaxLQMbtqzLougN3REyQMMrpP0X-ysm432A=s88-c-k-c0x00ffffff-no-rj" alt="<?= $name ?>">
+                            <img class="rounded-circle" width="80" src="<?= $img ?>" alt="<?= $name ?>">
                             <div class="px-4">
                                 <h4><?= $name ?></h4>
                                 <span class="h6 text-muted">
@@ -37,7 +38,7 @@ $nim = '1907411005';
                         </div>
                         <hr>
                         <div class="text-center">
-                            <img src="https://file.maukuliah.id/img/logo/Poltek-Negeri-Jakarta.png" width="150" alt="">
+                            <img src="https://file.maukuliah.id/img/logo/Poltek-Negeri-Jakarta.png" width="150">
                             <p class="fw-bold fs-5">
                                 Politeknik Negeri Jakarta
                                 <br>

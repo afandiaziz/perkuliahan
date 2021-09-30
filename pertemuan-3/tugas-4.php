@@ -1,14 +1,3 @@
-<?php
-if (isset($_GET['p'])) {
-    $p = $_GET['p'];
-    $l = $_GET['l'];
-    $t = $_GET['t'];
-} else {
-    $p = 5;
-    $l = 3;
-    $t = 7;
-}
-?>
 <!doctype html>
 <html lang="en">
 
@@ -31,6 +20,17 @@ if (isset($_GET['p'])) {
                         </div>
                     </div>
                     <div class="card-body">
+                        <?php
+                        if (isset($_GET['p'])) {
+                            $p = $_GET['p'];
+                            $l = $_GET['l'];
+                            $t = $_GET['t'];
+                        } else {
+                            $p = 5;
+                            $l = 3;
+                            $t = 7;
+                        }
+                        ?>
                         <form action="" method="get">
                             <div class="form-group">
                                 <label for="#p" class="fw-bold mb-2">Panjang Balok</label>
@@ -66,7 +66,6 @@ if (isset($_GET['p'])) {
                             <span><?= $p ?> * <?= $l ?> * <?= $t ?></span>
                             <br>
                             = <strong><?= $p * $l * $t ?>cm</strong>
-
                         </div>
                     </div>
                 </div>

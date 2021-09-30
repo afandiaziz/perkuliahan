@@ -1,10 +1,3 @@
-<?php
-if (isset($_GET['r'])) {
-    $r = $_GET['r'];
-} else {
-    $r = 20;
-}
-?>
 <!doctype html>
 <html lang="en">
 
@@ -27,6 +20,13 @@ if (isset($_GET['r'])) {
                         </div>
                     </div>
                     <div class="card-body">
+                        <?php
+                        if (isset($_GET['r'])) {
+                            $r = $_GET['r'];
+                        } else {
+                            $r = 20;
+                        }
+                        ?>
                         <form action="" method="get">
                             <label for="#jarijari" class="fw-bold mb-2">Jari-Jari Lingkaran</label>
                             <input type="text" id="jarijari" name="r" value="<?= $r ?>" autofocus autocomplete="off" required class="form-control">
@@ -48,7 +48,6 @@ if (isset($_GET['r'])) {
                             <span>&pi; * <?= $r ?><sup>2</sup></span>
                             <br>
                             = <strong><?= (22 / 7) * $r * $r ?>cm</strong>
-
                         </div>
                     </div>
                 </div>
