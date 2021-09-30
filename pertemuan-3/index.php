@@ -18,7 +18,7 @@
                         <div class="card-title fw-bold text-center mb-0">Pemrograman Web 2 : Tugas Pertemuan 3</div>
                     </div>
                     <div class="card-body">
-                        <a href="doc.html">Document</a>
+                        <a href="doc.php">Document</a>
                         <ol>
                             <li>
                                 <a href="tugas-1.php">Membuat Profile Biodata</a>
