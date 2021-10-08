@@ -44,15 +44,8 @@ if ($a != '0' && $a != '1') {
     }
     $math = "$x $a $y =";
 } else {
-    if (strlen($x) > 1) {
-        if (strpos($x, "sqr") >= 0) {
-            $z = pow(toNumber(str_replace(['sqr(', ')'], '', $x)), 2);
-            $math = "$x $a $y =";
-        }
-    } else {
-        $z = 0;
-        $math = null;
-    }
+    $z = 0;
+    $math = null;
 }
 ?>
 <!doctype html>
