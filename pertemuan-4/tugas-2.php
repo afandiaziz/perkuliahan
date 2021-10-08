@@ -191,20 +191,15 @@ if ($a != '0' && $a != '1') {
         function number(val) {
             return parseFloat(val.replace(",", "."))
         }
-        // let x = [];
         let eq = false,
             next = true,
             darkMode = <?php if ($mode == 'dark') : ?>true<?php else : ?>false<?php endif; ?>,
             coma = false,
             arithmetic = false,
-            // sqr = false,
-            // sqrt = false,
             arithmeticOperator = null;
         let x = 0,
             y = 0,
-            z = 0,
-            xTemp = 0,
-            yTemp = 0;
+            z = 0;
 
         $('button.number').click(function() {
             if (next) {
@@ -240,11 +235,6 @@ if ($a != '0' && $a != '1') {
             } else {
                 if (next) {
                     y = number($('#entry').val());
-                    // if (typeof x == 'string' && x.search("sqr") >= 0) {
-                    //     x = Math.pow(number(x.replace('sqr(', '').replace(')', '')), 2);
-                    // } else if (typeof x == 'string' && x.search("√") >= 0) {
-                    //     x = Math.pow(number(x.replace('√(', '').replace(')', '')), 2);
-                    // }
 
                     switch (arithmeticOperator) {
                         case '+':
@@ -275,51 +265,6 @@ if ($a != '0' && $a != '1') {
             coma = false;
             eq = true;
         });
-
-        // $('#sqr').click(function() {
-        //     const numOri = number($('#entry').val());
-        //     if (!arithmetic) {
-        //         x = `sqr(${numOri})`;
-        //         $('label span').html(`sqr(${numOri})`);
-        //         $('input#input-x').val(`sqr(${numOri})`);
-        //         $('#entry').val(Math.pow(numOri, 2));
-        //         arithmetic = true;
-        //         arithmeticOperator = $(this).data('arithmetic');
-        //         next = false;
-        //     } else {
-        //         y = Math.pow(number($('#entry').val()), 2);
-        //         yTemp = `sqr(${numOri})`;
-        //         xTemp = x;
-
-        //         if (typeof x == 'string' && x.search("sqr") >= 0) {
-        //             x = Math.pow(number(x.replace('sqr(', '').replace(')', '')), 2);
-        //         } else if (typeof x == 'string' && x.search("√") >= 0) {
-        //             x = Math.pow(number(x.replace('√(', '').replace(')', '')), 2);
-        //         }
-        //         switch (arithmeticOperator) {
-        //             case '+':
-        //                 z = x + y;
-        //                 break;
-        //             case '−':
-        //                 z = x - y;
-        //                 break;
-        //             case '×':
-        //                 z = x * y;
-        //                 break;
-        //             case '÷':
-        //                 z = x / y;
-        //                 break;
-        //         }
-        //         $('input#input-x').val(z);
-        //         $('label span').html(xTemp + ' ' + arithmeticOperator + ' ' + yTemp);
-        //         $('#entry').val(z);
-        //         x = z;
-        //         y = 0;
-        //         next = false;
-        //     }
-        //     coma = false;
-        //     eq = true;
-        // });
 
         $('#positive-or-negative').click(function() {
             if (number($('#entry').val()) != 0) {

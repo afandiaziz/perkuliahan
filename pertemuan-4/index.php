@@ -36,9 +36,6 @@
                                         <a class="text-decoration-none" href="tugas-1-bitwise.php">Operator Bitwise</a>
                                     </li>
                                     <li>
-                                        <a class="text-decoration-none" href="tugas-1-pembandingan.php">Operator Pembandingan</a>
-                                    </li>
-                                    <li>
                                         <a class="text-decoration-none" href="tugas-1-increment-decrement.php">Operator Increment/Decrement</a>
                                     </li>
                                     <li>

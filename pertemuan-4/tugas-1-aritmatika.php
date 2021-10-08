@@ -21,32 +21,32 @@ $nim = '1907411005';
                     <div class="card-header">
                         <div class="card-title fw-bold mb-0 h3">
                             <a href="index.php" class="btn btn-outline-info">Kembali</a>
-                            <span class="text-center ms-3">Profil Saya</span>
+                            <span class="text-center ms-3">Operator Aritmatika</span>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <div class="d-flex">
-                            <img class="rounded-circle" width="80" src="<?= $img ?>" alt="<?= $name ?>">
-                            <div class="px-4">
-                                <h4><?= $name ?></h4>
-                                <span class="h6 text-muted">
-                                    <?= $nim ?>
-                                    <br>
-                                    TI 5A
-                                </span>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="text-center">
-                            <img src="https://file.maukuliah.id/img/logo/Poltek-Negeri-Jakarta.png" width="150">
-                            <p class="fw-bold fs-5">
-                                Politeknik Negeri Jakarta
-                                <br>
-                                Teknik Informatika dan Komputer
-                                <br>
-                                <span class="text-muted">D4 - Teknik Informatika</span>
-                            </p>
-                        </div>
+                    <div class="card-body fs-6">
+
+                        <?php
+                        $a = 5;
+                        $b = 2;
+                        echo "<h5>Penjumlahan</h5>";
+                        echo "$a + $b = " . ($a + $b);
+                        echo "<hr>";
+                        echo "<h5>Pengurangan</h5>";
+                        echo "$a - $b = " . ($a - $b);
+                        echo "<hr>";
+                        echo "<h5>Perkalian</h5>";
+                        echo "$a * $b = " . ($a * $b);
+                        echo "<hr>";
+                        echo "<h5>Pembagian</h5>";
+                        echo "$a / $b = " . ($a / $b);
+                        echo "<hr>";
+                        echo "<h5>Sisa Bagi</h5>";
+                        echo "$a % $b = " . ($a % $b);
+                        echo "<hr>";
+                        echo "<h5>Pangkat</h5>";
+                        echo "$a<sup>$b</sup> = " . ($a ** $b);
+                        ?>
                     </div>
                     <div class="card-footer small text-muted"><?= $name ?>, <?= $nim ?></div>
                 </div>

@@ -21,39 +21,26 @@ $nim = '1907411005';
                     <div class="card-header">
                         <div class="card-title fw-bold mb-0 h3">
                             <a href="index.php" class="btn btn-outline-info">Kembali</a>
-                            <span class="text-center ms-3">Profil Saya</span>
+                            <span class="text-center ms-3">Operator Bitwise</span>
                         </div>
                     </div>
-                    <div class="card-body">
-                        <div class="d-flex">
-                            <img class="rounded-circle" width="80" src="<?= $img ?>" alt="<?= $name ?>">
-                            <div class="px-4">
-                                <h4><?= $name ?></h4>
-                                <span class="h6 text-muted">
-                                    <?= $nim ?>
-                                    <br>
-                                    TI 5A
-                                </span>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="text-center">
-                            <img src="https://file.maukuliah.id/img/logo/Poltek-Negeri-Jakarta.png" width="150">
-                            <p class="fw-bold fs-5">
-                                Politeknik Negeri Jakarta
-                                <br>
-                                Teknik Informatika dan Komputer
-                                <br>
-                                <span class="text-muted">D4 - Teknik Informatika</span>
-                            </p>
-                        </div>
+                    <div class="card-body fs-6">
+
+                        <?php
+                        $a = 60;
+                        $b = 13;
+                        echo "$a & $b = " . ($a & $b) . "<br>";
+                        echo "$a | $b = " . ($a | $b) . "<br>";
+                        echo "$a ^ $b = " . ($a ^ $b) . "<br>";
+                        echo "$a << $b = " . ($a << $b) . "<br>";
+                        echo "$a >> $b = " . ($a >> $b) . "<br>";
+                        ?>
                     </div>
                     <div class="card-footer small text-muted"><?= $name ?>, <?= $nim ?></div>
                 </div>
             </div>
         </div>
     </div>
-    <h1></h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
