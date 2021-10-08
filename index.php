@@ -18,8 +18,11 @@
                     </div>
                     <div class="card-body">
                         <ol>
-                            <li>
-                                <a href="pertemuan-3">Tugas Pertemuan 3 (30/09/2021)</a>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-3">Tugas Pertemuan 3 (30/09/2021)</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-4">Tugas Pertemuan 4 (07/10/2021) <span class="badge bg-danger">New</span< /a>
                             </li>
                         </ol>
                     </div>
