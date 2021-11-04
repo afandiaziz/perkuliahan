@@ -17,14 +17,26 @@
                         <div class="card-title fw-bold text-center mb-0">Pemrograman Web 2</div>
                     </div>
                     <div class="card-body">
-                        <ol>
+                        <ul>
                             <li class="mt-2">
                                 <a class="text-decoration-none" href="pertemuan-3">Tugas Pertemuan 3 (30/09/2021)</a>
                             </li>
                             <li class="mt-2">
-                                <a class="text-decoration-none" href="pertemuan-4">Tugas Pertemuan 4 (07/10/2021) <span class="badge bg-danger">New</span< /a>
+                                <a class="text-decoration-none" href="pertemuan-4">Tugas Pertemuan 4 (07/10/2021)</a>
                             </li>
-                        </ol>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-5">Tugas Pertemuan 5 (14/10/2021)
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-6">Tugas Pertemuan 6 (21/10/2021)
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-7">Tugas Pertemuan 7 (28/10/2021)
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-8-uts">Tugas Pertemuan 8 (04/11/2021 - 11/11/2021) <span class="badge bg-danger">New</span><span class="ms-1 badge bg-primary">UTS</span></a>
+                            </li>
+                            </ol>
                     </div>
                     <div class="card-footer small text-muted">Muhammad Afandi Aziz, 1907411005</div>
                 </div>
