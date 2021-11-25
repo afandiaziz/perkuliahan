@@ -34,9 +34,15 @@
                                 <a class="text-decoration-none" href="pertemuan-7">Tugas Pertemuan 7 (28/10/2021)
                             </li>
                             <li class="mt-2">
-                                <a class="text-decoration-none" href="pertemuan-8-uts">Tugas Pertemuan 8 (04/11/2021 - 11/11/2021) <span class="badge bg-danger">New</span><span class="ms-1 badge bg-primary">UTS</span></a>
+                                <a class="text-decoration-none" href="pertemuan-8-uts">Tugas Pertemuan 8 (04/11/2021 - 11/11/2021)<span class="ms-1 badge bg-primary">UTS</span></a>
                             </li>
-                            </ol>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-9">Tugas Pertemuan 9 (18/11/2021)</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-10">Tugas Pertemuan 10 (25/11/2021) <span class="badge bg-danger">New</span></a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="card-footer small text-muted">Muhammad Afandi Aziz, 1907411005</div>
                 </div>
