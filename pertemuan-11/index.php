@@ -44,25 +44,26 @@ session_start();
             </div>
         </div>
     </nav>
-    <?php 
-        if (isset($_SESSION['username'])) :
+    <?php
+    if (isset($_SESSION['username'])) :
     ?>
-    <div class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card bg-transparent border-0 py-5">
-                        <div class="card-body text-center">
-                            <h1>Halo, <?= $_SESSION['username'] ?></h1>
-                            <p>LOGIN OR REGISTER SUCCESSFULLY</p>
+        <div class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card bg-transparent border-0 py-5">
+                            <div class="card-body text-center">
+                                <h1>Halo, <?= $_SESSION['username'] ?></h1>
+                                <p>LOGIN OR REGISTER SUCCESSFULLY</p>
+                                <p>CAPTCHA IS CORRECT</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <?php
-        endif;
+    endif;
     ?>
     <div class="container my-5">
         <div class="row">

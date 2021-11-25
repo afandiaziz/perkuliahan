@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
             <div class="col-6">
                 <div class="card py-4 px-3">
                     <div class="card-body">
-                        <h1 class="fw-bold text-center">Login</h1>
+                        <h1 class="fw-bold text-center">Register</h1>
                         <?php
                         if ($error) {
                             echo '<div class="alert alert-danger" role="alert">' . $error . '</div>';
