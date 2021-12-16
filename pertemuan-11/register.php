@@ -20,13 +20,12 @@ if (isset($_SESSION['username'])) {
 }
 
 if (isset($_POST['submit'])) {
-    $name = mysqli_real_escape_string($conn, stripslashes($_POST['name']));
-    $username = mysqli_real_escape_string($conn, stripslashes($_POST['username']));
-    $password = mysqli_real_escape_string($conn, stripslashes($_POST['password']));
-    $email = mysqli_real_escape_string($conn, stripslashes($_POST['email']));
-    $repassword = mysqli_real_escape_string($conn, stripslashes($_POST['repassword']));
-
     if ($_SESSION['captcha'] == strtoupper($_POST['captcha'])) {
+        $name = mysqli_real_escape_string($conn, stripslashes($_POST['name']));
+        $username = mysqli_real_escape_string($conn, stripslashes($_POST['username']));
+        $password = mysqli_real_escape_string($conn, stripslashes($_POST['password']));
+        $email = mysqli_real_escape_string($conn, stripslashes($_POST['email']));
+        $repassword = mysqli_real_escape_string($conn, stripslashes($_POST['repassword']));
         if (!empty(trim($username)) && !empty(trim($password)) && !empty(trim($repassword)) && !empty(trim($email)) && !empty(trim($name))) {
             if ($repassword == $password) {
                 if (cek_username($username, $conn)) {

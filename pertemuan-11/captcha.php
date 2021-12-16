@@ -16,7 +16,7 @@ $code = acakCaptcha();
 $_SESSION['captcha'] = $code;
 
 $wh = imagecreatetruecolor(120, 40);
-$bgc = imagecolorallocate($wh, 22, 86, 165);
+$bgc = imagecolorallocate($wh, 52, 217, 145);
 $fc = imagecolorallocate($wh, 223, 230, 233);
 imagefill($wh, 0, 0, $bgc);
 imagestring($wh, 8, 35, 12, $code, $fc);

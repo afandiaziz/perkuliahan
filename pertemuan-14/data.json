@@ -1,0 +1,51 @@
+[
+    {
+        "nim": 1907411005,
+        "name": "Afandi",
+        "kelas": "TI 5A",
+        "prodi": "TI",
+        "jurusan": "TIK"
+    },
+    {
+        "nim": 1907411008,
+        "name": "adi",
+        "kelas": "TI 5B",
+        "prodi": "percetakan",
+        "jurusan": "TGP"
+    },
+    {
+        "nim": 1907411010,
+        "name": "kintan",
+        "kelas": "TI 5B",
+        "prodi": "percetakan",
+        "jurusan": "TGP"
+    },
+    {
+        "nim": 1907411011,
+        "name": "leo",
+        "kelas": "TI 5B",
+        "prodi": "percetakan",
+        "jurusan": "TGP"
+    },
+    {
+        "nim": 1907411021,
+        "name": "Hani",
+        "kelas": "TI 5A",
+        "prodi": "TI",
+        "jurusan": "TIK"
+    },
+    {
+        "nim": 1907411022,
+        "name": "Sultan",
+        "kelas": "TI 5A",
+        "prodi": "TI",
+        "jurusan": "TIK"
+    },
+    {
+        "nim": 1907411024,
+        "name": "Nanda",
+        "kelas": "TI 5B",
+        "prodi": "percetakan",
+        "jurusan": "TGP"
+    }
+]

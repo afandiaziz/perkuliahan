@@ -9,10 +9,10 @@ if (isset($_SESSION['username'])) {
 }
 
 if (isset($_POST['submit'])) {
-    $username = mysqli_real_escape_string($conn, stripslashes($_POST['username']));
-    $password = mysqli_real_escape_string($conn, stripslashes($_POST['password']));
-    if (!empty(trim($username)) && !empty(trim($password))) {
-        if ($_SESSION['captcha'] == strtoupper($_POST['captcha'])) {
+    if ($_SESSION['captcha'] == strtoupper($_POST['captcha'])) {
+        $username = mysqli_real_escape_string($conn, stripslashes($_POST['username']));
+        $password = mysqli_real_escape_string($conn, stripslashes($_POST['password']));
+        if (!empty(trim($username)) && !empty(trim($password))) {
             $query = "SELECT * FROM users WHERE username='$username'";
             $result = mysqli_query($conn, $query);
             if (mysqli_num_rows($result) == 1) {
@@ -26,10 +26,10 @@ if (isset($_POST['submit'])) {
                 $error = 'Username salah';
             }
         } else {
-            $error = 'Captcha salah';
+            $error = 'Username dan Password tidak boleh kosong';
         }
     } else {
-        $error = 'Username dan Password tidak boleh kosong';
+        $error = 'Captcha salah';
     }
 }
 ?>

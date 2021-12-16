@@ -40,7 +40,10 @@
                                 <a class="text-decoration-none" href="pertemuan-9">Tugas Pertemuan 9 (18/11/2021)</a>
                             </li>
                             <li class="mt-2">
-                                <a class="text-decoration-none" href="pertemuan-11">Tugas Pertemuan 11 (25/11/2021) <span class="badge bg-danger">New</span></a>
+                                <a class="text-decoration-none" href="pertemuan-11">Tugas Pertemuan 11 (25/11/2021) </a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-decoration-none" href="pertemuan-14">Tugas Pertemuan 14 (16/12/2021) <span class="badge bg-danger">New</span></a>
                             </li>
                         </ul>
                     </div>
